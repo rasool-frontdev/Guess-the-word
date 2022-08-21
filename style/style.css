@@ -1,0 +1,77 @@
+/* Import Google font - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Montserrat:wght@400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+}
+body {
+  display: flex;
+  padding: 0 10px;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background: rgb(130, 130, 201);
+}
+.wrapper {
+  width: 750px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+.wrapper h1 {
+  font-size: 25px;
+  font-weight: 500;
+  padding: 20px 25px;
+  border-bottom: 1px solid #ccc;
+}
+.content {
+  margin: 25px 20px;
+}
+.content .inputs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.inputs input {
+  height: 60px;
+  width: 60px;
+  margin: 5px;
+  font-size: 24px;
+  font-weight: 500;
+  color: #1ba98c;
+  text-align: center;
+  border-radius: 5px;
+  background: none;
+  pointer-events: none;
+  text-transform: uppercase;
+  border: 1px solid #b5b5b5;
+}
+.typing-input {
+  opacity: 0;
+}
+
+.details p {
+  font-size: 19px;
+  margin-bottom: 10px;
+  margin: 15px 0px;
+}
+.btn {
+  width: 100%;
+  align-items: center;
+  border: none;
+  background-color: #ccc;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 25px 24px;
+  border-radius: 5px;
+  background-color: rgb(120, 100, 220);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.btn:hover {
+  background-color: rgb(100, 100, 200);
+  color: #fff;
+}
